@@ -8,7 +8,7 @@ class RiversideTalks
 
     public $ver = "Riverside Rocks API Client (v1.0)";
 
-    protected function auth($token)
+    public function auth($token)
     {
         $key = $token;
     }
