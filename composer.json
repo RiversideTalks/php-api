@@ -1,0 +1,14 @@
+{
+    "name": "riversiderocks/riversiderocks",
+    "description": "API wrapper to interact with the Riverside Rocks chat API",
+    "type": "library",
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Riverside Rocks",
+            "email": "trent@riverside.rocks"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
