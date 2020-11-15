@@ -4,7 +4,7 @@ API wrapper for Riverside Rocks in PHP
 
 ## Example
 
-```
+```php
 <?php
 
 require 'vendor/autoload.php';
