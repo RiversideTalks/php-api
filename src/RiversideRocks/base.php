@@ -6,6 +6,8 @@ class RiversideTalks
 {
     private $key;
 
+    public $ver = "Riverside Rocks API Client (v1.0)";
+
     protected function auth($token)
     {
         $key = $token;
@@ -29,6 +31,7 @@ class RiversideTalks
  
         $url = "https://riverside.rocks/v1/new?m=" . $message . "&key=" . $login . "&c_id=" . $channel;
         
+        curl_setopt($ch, CURLOPT_USERAGENT, self::$ver);
         curl_setopt($handle, CURLOPT_URL, $url);
         curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
         
