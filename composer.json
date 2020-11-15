@@ -9,6 +9,5 @@
             "email": "trent@riverside.rocks"
         }
     ],
-    "minimum-stability": "stable",
     "require": {}
 }
